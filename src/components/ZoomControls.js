@@ -18,7 +18,7 @@ const ZoomControls = () => {
     <div className='main__zoom-controls'>
       <button className='main__zoom-controls-button' onClick={handleZoomIn}>Увеличить (+)</button>
       <button className='main__zoom-controls-button' onClick={handleZoomOut}>Уменьшить (-)</button>
-      <span>Масштаб: {(zoomLevel * 100).toFixed(0)}%</span>
+      <span className='main__zoom-controls-span'>Масштаб: {(zoomLevel * 100).toFixed(0)}%</span>
     </div>
   );
 };

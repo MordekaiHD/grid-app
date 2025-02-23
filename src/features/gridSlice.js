@@ -5,6 +5,7 @@ const initialState = {
   selectedColor: '#000000', // Цвет по умолчанию
   selectedAreas: [],
   zoomLevel: 1,
+  
 };
 
 const gridSlice = createSlice({
